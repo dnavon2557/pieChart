@@ -13,8 +13,8 @@ Button b;
 
 void setup(){
   size(800,800);
-  surface.setResizable(true);
-  pixelDensity(displayDensity());
+//  surface.setResizable(true);
+  //pixelDensity(displayDensity());
   colorMode(HSB);
   String[] lines = loadStrings("./data.csv");
   String[] headers = split(lines[0], ",");
